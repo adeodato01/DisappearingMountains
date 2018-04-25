@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Disappearing Mountain</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+                $(document).ready(function(){
+                    $('img').click(function(){
+                        $(this).css("visibility","hidden");
+                    })
+                    $("button").click(function() {
+                        location.reload();
+                    })
+                })
+            </script>
+
+
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <wrapper>
+            <h1>jQuery - assignment: Disappearing Mountains</h1>
+            <img src="MtRainierPic.jpg" alt="Mount Rainier">
+            <img src="MtRainierPic.jpg" alt="Mount Rainier">    
+            <img src="MtRainierPic.jpg" alt="Mount Rainier">
+            <img src="MtRainierPic.jpg" alt="Mount Rainier">
+            <img src="MtRainierPic.jpg" alt="Mount Rainier">    
+            <img src="MtRainierPic.jpg" alt="Mount Rainier">    
+            
+            <p><button>Reset the game</button></p>
+            
+            
+            
+        </wrapper>
+    </body>
+</html>
